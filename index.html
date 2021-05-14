@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- -----------------------------random color code generator-------------------------------------- -->
+    <nav>
+        <div class="navcenter">
+            <h4>
+                Color Code | CC
+            </h4>
+        </div>
+    </nav>
+    <main>
+        <div class="container" id="cc">
+            <h1> Background Color Code : <span class="color" id="rgbb"></span>
+            </h1>
+            <br><br>
+            <h3>Click the button to change the Background color</h3>
+            <br><br>
+            <button class="btn btnhero" id="btn">Cick Me </button>
+        </div>
+    </main>
+
+    <!-- ----------------------------color slider--------------------------------- -->
+    <hr>
+    <div id="break">
+        Change the Colors manually :             <p id="amni"></p>
+
+    </div>
+    <!-- <hr> -->
+    <!-- <fieldset>
+        <legend>
+            Set color manually :
+        </legend> -->
+    <div id="slide">
+
+        <div class="slider" id="sld">
+            <label for="red"><span style="color: red;"> Red (r) : </span></label>
+            <input type="range" id="lal" value="69" min="0" max="255">
+            <br>
+            <label for="green"><span style="color: green;">Green (g) :</span></label>
+            <input type="range" id="sobuj" value="69" min="0" max="255">
+            <br>
+            <label for="blue"><span style="color:blue;">  Blue (b) :</span>  </label>
+            <input type="range" id="neel" value="69" min="0" max="255">
+        </div>
+        <!-- </fieldset> -->
+        <br>
+        <div class="draw">
+            <div class="love" id="main"></div>
+            <div class="love" id="ri"></div>
+            <div class="love" id="le"></div>
+
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
